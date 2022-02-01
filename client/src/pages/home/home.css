@@ -1,0 +1,83 @@
+/* create user button */
+
+.create-user-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0274B3;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* create user button */
+
+table{
+    background-color: black;
+    width: 100%;
+}
+
+table thead th{
+    color: white;
+}
+
+table tbody td{
+    background-color: #F3F2EF;
+    text-align: center;
+}
+
+/* card */
+
+.home-personal-card .link{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.users-collections{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-personal-card{
+    background-color: white;
+    border-radius: 7px;
+    margin: 10px 0;
+    width: 20%;
+    height: 100px;
+}
+
+.home-personal-card .link .left{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    padding: 7px 5px;
+    margin-right: 5px;
+}
+
+.home-personal-card .link .middle{
+    padding: 15px 7px;
+    width: auto;
+}
+
+.home-personal-card .link .middle .name{
+    font-size: 20px;
+}
+
+.home-personal-card .link .right{
+    padding: 0 7px;
+    width: auto;
+}
+
+.home-personal-card .link .middle .name{
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+.home-personal-card .link .middle .name, .home-personal-card .link .middle .contact,.home-personal-card .link .middle .email{
+    color: black;
+}
+
+/* card */
