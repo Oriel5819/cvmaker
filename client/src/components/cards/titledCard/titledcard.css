@@ -1,0 +1,39 @@
+.exp-wrap div .titled-card,
+.educ-wrap div .titled-card,
+.pymk-wrap div .titled-card {
+  padding: 26px 8px 0 13px;
+  border-radius: 7px 7px 0 0;
+}
+
+.titled-card {
+  background-color: white;
+  border-radius: 7px 7px 0;
+}
+
+.titled-card .title-card-contents {
+  padding-right: 11px;
+  margin-right: 5px;
+}
+
+.titled-card .title-itself {
+  font-size: 22px;
+  color: #191919;
+  margin: 0px 16px 0px 8px;
+}
+
+.titled-card-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-button svg {
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.add-button svg:hover {
+  cursor: pointer;
+  background-color: #8067b7;
+  color: white;
+}

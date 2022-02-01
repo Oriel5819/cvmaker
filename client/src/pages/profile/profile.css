@@ -1,0 +1,56 @@
+.profile-page-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-left-side,
+.card-right-side {
+  border-radius: 7px;
+}
+
+/* left side */
+
+.card-left-side {
+  width: 69%;
+}
+
+.profile-basic-card,
+.profile-experience-card,
+.profile-education-card {
+  background-color: white;
+  border-radius: 7px;
+  margin-bottom: 14px;
+}
+
+.profile-experience-card,
+.profile-education-card {
+  padding-top: 5px;
+}
+
+.profile-basic-card {
+  padding-bottom: 14px;
+}
+
+.profile-experience-card {
+}
+
+/* left side */
+
+.card-right-side {
+  width: 29%;
+}
+
+/* message */
+
+.message-card {
+  border-radius: 7px 7px 0 0;
+  /* max-height: 880px; */
+  /* min-height: 47px; */
+  width: 280px;
+  padding-bottom: 0px;
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+}
+
+/* message */

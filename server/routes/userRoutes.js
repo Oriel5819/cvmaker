@@ -1,15 +1,19 @@
-const routes = require("express").Router();
-const {
-  register,
-  login,
-  update,
-  remove,
-} = require("../controllers/userController");
+const router = require("express").Router();
+const userController = require("../controllers/userCtrlr.js");
+const { auth } = require("../middlewares/authMiddleware");
 
-// Add routes
-routes.post("/register", register);
-routes.post("/login", login);
-routes.put("/:id", update);
-routes.delete("/:id", remove);
+router.route("/").get(auth, userController.users);
 
-module.exports = routes;
+router.route("/register").post(userController.register);
+router.route("/login").post(userController.login);
+
+router
+  .route("/:id")
+  .get(auth, userController.getUser)
+  .put(auth, userController.updateUser)
+  .delete(auth, userController.removeUser);
+
+router.route("/friends").post(auth, userController.friends);
+router.route("/others").post(auth, userController.others);
+
+module.exports = router;

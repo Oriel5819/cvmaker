@@ -1,0 +1,51 @@
+.modal-content {
+  width: 600px;
+}
+
+.modal-body-photo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.modal-body-photo .button-wrap {
+  display: inline;
+  justify-content: center;
+  width: 50px;
+}
+
+.modal-body-photo .button-wrap label svg,
+.modal-body-photo .button-wrap #image-del svg {
+  margin: 0 10px 30px 10px;
+  font-size: 30px;
+  color: grey;
+  border: none;
+  cursor: pointer;
+}
+
+#image-del {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-body-photo .button-wrap label svg:hover,
+.modal-body-photo .button-wrap #image-del svg:hover {
+  margin: 0 10px 30px 10px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-body-photo label:hover {
+  color: #0274b3;
+}
+
+.modal-body-photo #image-del:hover {
+  color: red;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+/* content */
+/* content */

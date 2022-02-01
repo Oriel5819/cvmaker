@@ -1,0 +1,53 @@
+{
+    "data":[
+        {
+            "basic":{
+                "fname":"Required string",
+                "lname":"Required string",
+                "jobtitle":"String",
+                "city":"String",
+                "country":"String",
+                "currentpositionlogo":"image",
+                "currentpositiontitle":"String",
+                "currentpositionname":"String",
+            }
+        },
+
+        {
+            "experience":{
+                "companylogo":"image",
+                "position":"String",
+                "companyname":"String",
+                "contract":"String",
+                "duration":"Date",
+                "description":"Text"
+            }
+        },
+
+        {
+            "education":{
+                "schoollogo":"image",
+                "schoolname":"String",
+                "major":"String",
+                "duration":"Date"
+            }
+        },
+
+        {
+            "viewed":{
+                "name":"String",
+                "class":"String",
+                "position":"String",
+                "company":"String"
+            }
+        },
+
+        {
+            "know":{
+                "name":"String",
+                "position":"String",
+                "company":"String"
+            }
+        }
+    ]
+}

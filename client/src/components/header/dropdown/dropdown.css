@@ -1,0 +1,33 @@
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.thumbnail-image {
+  border-radius: 50%;
+}
+
+/* when showed */
+
+.dropdown-menu .dropdown-item {
+  padding: 0 7px !important;
+  text-decoration: none;
+  color: rgb(73, 73, 73);
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #8067b7;
+  color: white;
+}
+
+/* when showed */
+
+.pull-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pull-left #identification {
+  margin-right: 10px;
+  color: white;
+}

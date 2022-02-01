@@ -1,0 +1,21 @@
+.message-body {
+  background-color: white;
+  /* height: 778px;
+  height: 10px; */
+  overflow: auto;
+}
+
+.message-body ul li {
+  list-style: none;
+}
+
+.search-input {
+  position: relative;
+}
+
+.messages {
+  padding: 0;
+}
+
+.single-message {
+}

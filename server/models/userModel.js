@@ -11,11 +11,53 @@ const UserSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
+    gender: {
+      type: String,
+      trim: true,
+    },
+    profile: {
+      avatar: {
+        type: String,
+        trim: true,
+      },
+      cover: {
+        type: String,
+        trim: true,
+      },
+      company: {
+        companyLogo: {
+          type: String,
+          trim: true,
+        },
+        companyName: {
+          type: String,
+          trim: true,
+        },
+        jobPosition: {
+          type: String,
+          trim: true,
+        },
+      },
+      address: {
+        city: {
+          type: String,
+          trim: true,
+        },
+        country: {
+          type: String,
+          trim: true,
+        },
+      },
+    },
+    contact: {
+      type: String,
+      trim: true,
+    },
     email: {
       type: String,
       trim: true,
-      required: true,
       unique: true,
+      required: true,
       lowercase: true,
     },
     password: {
@@ -35,7 +77,6 @@ const UserSchema = new mongoose.Schema(
   }
 );
 
-// for encrypting the password
 UserSchema.pre("save", async function (next) {
   if (!this.isModified("password")) {
     next();
@@ -45,9 +86,8 @@ UserSchema.pre("save", async function (next) {
   this.password = await bcrypt.hash(this.password, salt);
 });
 
-// for decrypting the password
-UserSchema.methods.matchPassword = async function (enteredPassword) {
-  return await bcrypt.compare(enteredPassword, this.password);
+UserSchema.methods.matchPassword = async function (entred_password) {
+  return bcrypt.compare(entred_password, this.password);
 };
 
 module.exports = mongoose.model("Users", UserSchema);

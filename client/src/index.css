@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Arial, sans-serif; */
+  font-size: 15px;
+}
+
+body {
+  background-color: #e0e0e0 !important;
+  font-size: small;
+}
+
+.navbar-wrap,
+.main-wrap {
+  max-width: 1130px;
+  margin: auto auto auto 387px;
+}
+
+input {
+  outline: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+.right-side-card {
+  /* padding: 16px 8px; */
+  border-radius: 7px;
+  margin-bottom: 14px;
+  background-color: white;
+}

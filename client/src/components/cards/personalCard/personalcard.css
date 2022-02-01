@@ -1,0 +1,55 @@
+.personal-card {
+  padding: 0 8px 0 8px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 16px 0 8px 0;
+}
+
+.titled-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#add-button svg {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#avatar {
+  border-radius: 50%;
+}
+
+.personal-card-info {
+  /* display: flex;
+    align-items: center; */
+  margin-left: 11px;
+}
+
+.personal-card-name-class {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.personal-card-name-class #name a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #191919;
+}
+
+.personal-card-name-class #class {
+  font-size: 18px;
+  color: #666666;
+}
+
+.personal-card-jobtitle {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+.personal-card-connect-button #customized-button {
+  background-color: blueviolet;
+  margin-left: 0;
+}

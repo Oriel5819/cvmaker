@@ -1,0 +1,45 @@
+/* logo */
+
+#logo-name {
+  color: white;
+  font-size: 25px;
+}
+
+.logo-container a {
+  text-decoration: none;
+}
+
+/* logo */
+
+/* navbar */
+
+.navbar {
+  width: 100%;
+  height: 52px;
+  background-color: darkviolet;
+  align-items: center;
+}
+
+.navbar-wrap {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo-container {
+  margin-right: 20px;
+}
+
+.search-bar-me-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-right-side .dropdown a {
+  padding: 0;
+}
+
+/* navbar */
